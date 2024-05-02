@@ -1,6 +1,7 @@
 import './App.css';
-import {Testimonials} from './components/testimonials';
-// import {Botton} from './components/Botton';
+// import {Testimonials} from './components/testimonials';
+import {Botton} from './components/Botton';
+import { useState } from 'react';
 
 const testimonialData = {
   urlImage: 'https://w7.pngwing.com/pngs/562/750/png-transparent-homer-simpson.png',
@@ -27,16 +28,31 @@ const testimonialData3 = {
 };
 
 function App() {
+
+  const [numClick, setNumClick] = useState(0);
+
+  const handleClick = () => {
+    setNumClick(numClick + 1);
+  }
+
+  const restartClick = () => {
+    setNumClick(0);
+  }
+
   return (
     <div className="App">
       <div className='content-principal'>
         <h1>Esto es lo que dicen los dibujitos</h1>
-        <Testimonials testimonial={testimonialData} />
+        {/* <Testimonials testimonial={testimonialData} />
         <Testimonials testimonial={testimonialData2} />
-        <Testimonials testimonial={testimonialData3} />
+        <Testimonials testimonial={testimonialData3} /> */}
 
-        {/* <Botton text="Click" isBtnClick={true} />
-        <Botton text="Reiniciar" /> */}
+        <div className='counter'>
+          {numClick}
+        </div>
+
+        <Botton text="Click" isBtnClick={true} eventclick={handleClick} />
+        <Botton text="Reiniciar" eventclick={restartClick} />
 
       </div>
     </div>
