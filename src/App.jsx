@@ -4,7 +4,7 @@ import './App.css';
 import { CounterClick } from './components/CounterClick';
 import { Home } from './components/Home';
 import { Error } from './components/Error';
-import { Testimonials } from './components/Testimonials';
+// import { Testimonials } from './components/Testimonials';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Routes>
             <Route index element={<Home />} />
             <Route path='/home' element={<Home />} />
-            <Route path='/testimonials' element={<Testimonials />} />
+            {/* <Route path='/testimonials' element={<Testimonials />} /> */}
             <Route path='/counter' element={<CounterClick />} />
             <Route path='*' element={<Error />} />
           </Routes>
