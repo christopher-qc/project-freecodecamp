@@ -2,7 +2,7 @@ import {TestimonialsContent} from './TestimonialsContent';
 import React, { useState, useEffect } from 'react';
 // import { Header } from "./Header";
 
-import '../stylesheet/Testimonials.css';
+import '../stylesheet/Testimonio.css';
 
 export function Testimonio() {
 
