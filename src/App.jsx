@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { CounterClick } from './components/CounterClick';
-import { Testimonials } from './components/Testimonials';
 import { Home } from './components/Home';
 import { Error } from './components/Error';
+import { Testimonials } from './components/Testimonials';
 
 function App() {
   return (
