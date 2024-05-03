@@ -1,0 +1,33 @@
+.txt-testimonials {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px 0;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.img:hover {
+    transition: 0.4s;
+    border-color: rgb(156, 156, 156);
+    rotate: -3deg;
+    transform: scale(1.1);
+}
+
+.img-content {
+    gap: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

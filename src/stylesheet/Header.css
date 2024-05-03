@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+  background-color: transparent; /* Puedes cambiar el color de fondo según tus preferencias */
+}
+
+i {
+  margin-left: 10px;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+}

@@ -1,4 +1,4 @@
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box
@@ -7,8 +7,8 @@
 html,
 body {
     font-size: 18px;
-    background-color: black;
-}
+    background: rgb(0,0,0);
+    background: linear-gradient(80deg, rgba(0,0,0,1) 0%, rgba(0,6,38,1) 55%, rgba(0,12,69,1) 100%);}
 
 h1 {
     max-width: 940px;
@@ -19,32 +19,19 @@ h1 {
     margin: 40px 0;
 }
 
-.App {
+/* .App {
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
+} */
 
-.content-principal {
+.content-main {
     min-width: 600px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-}
-
-.counter {
-    min-width: 300px;
-    height: 300px;
-    font-size: 160px;
-    padding: 25px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 8px solid white;
-    margin-bottom: 10px;
 }
