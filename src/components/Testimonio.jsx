@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 import '../stylesheet/Testimonials.css';
 
-export function Testimonials() {
+export function Testimonio() {
 
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
