@@ -28,14 +28,17 @@
 .name-testimonial {
     font-size: 1.6rem;
     font-weight: bold;
+    color: black;
 }
 
 .post-testimonial { 
     font-size: 1.3rem;
     margin: 15px;
+    color: black;
 }  
 
 .text-testimonial {
     font-size: 1.1rem;
     text-align: justify;
+    color: black;
 }

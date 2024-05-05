@@ -20,8 +20,14 @@ export function CounterClick() {
           <div className='counter'>
             {numClick}
           </div>
-          <Botton text="Click" isBtnClick={true} eventclick={handleClick} />
-          <Botton text="Restart" eventclick={restartClick} />
+          <Botton
+            text="Click"
+            eventclick={handleClick}
+            color="green"/>
+          <Botton
+            text="Restart"
+            eventclick={restartClick}
+            color='#F632FF'/>
       </div>
     );
 }

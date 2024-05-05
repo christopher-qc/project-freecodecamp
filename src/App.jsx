@@ -5,6 +5,7 @@ import { CounterClick } from './components/CounterClick';
 import { Home } from './components/Home';
 import { Error } from './components/Error';
 import { Testimonio } from './components/Testimonio';
+import { Calculator } from './components/Calculator';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path='/home' element={<Home />} />
             <Route path='/testimonials' element={<Testimonio />} />
             <Route path='/counter' element={<CounterClick />} />
+            <Route path='/calculator' element={<Calculator />} />
             <Route path='*' element={<Error />} />
           </Routes>
         </BrowserRouter>

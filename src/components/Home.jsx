@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../stylesheet//Home.css";
+import "../stylesheet/Home.css";
 
 export function Home() {
   return (
@@ -18,10 +18,12 @@ export function Home() {
             alt="imagen"
             className="img"/>
         </Link>
-        <img 
-            src="https://media.revistagq.com/photos/642d239639741a22169073ce/16:9/w_2560%2Cc_limit/spider-man-cruzando-el-multiverso.jpeg"
+        <Link to ="/calculator">
+          <img 
+            src="https://i.ibb.co/R6Y47Dc/Screenshot-2024-05-04-194603.png"
             alt="imagen"
             className="img"/>
+        </Link>
             <img 
             src="https://media.revistagq.com/photos/642d239639741a22169073ce/16:9/w_2560%2Cc_limit/spider-man-cruzando-el-multiverso.jpeg"
             alt="imagen"
