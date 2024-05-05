@@ -2,6 +2,7 @@ import React from 'react';
 import '../stylesheet/Calculator.css';
 import { useState } from 'react';
 import { Botton } from './Botton';
+import { evaluate } from 'mathjs';
 
 export function Calculator() {
     const [screenNumOne, setscreenNumOne] = useState('0');
@@ -29,7 +30,7 @@ export function Calculator() {
     const handleResult = () => {
         if(screenNumTwo === '0') {setscreenNumOne('0'); return}
         const expresion = Number(screenNumTwo) + calculatorSign + Number(screenNumOne);
-        setscreenNumOne(eval(expresion))
+        setscreenNumOne(evaluate(expresion))
         setCalculatorSign('')
         setscreenNumTwo('0')
     }
