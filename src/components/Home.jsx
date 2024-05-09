@@ -4,7 +4,9 @@ import "../stylesheet/Home.css";
 export function Home() {
   return (
     <div className="content-main">
-      <p className="txt-testimonials">EXPLORA TODOS LOS PROYECTOS HECHOS EN EL CURSO DE FREECODECAMP</p>
+      <div className="content-txt">
+        <p className="txt-testimonials">EXPLORE ALL THE PROJECTS MADE IN THE FREECODECAMP COURSE</p>
+      </div>
       <div className="img-content">
         <Link to ="/testimonials">
           <img 
@@ -24,10 +26,12 @@ export function Home() {
             alt="imagen"
             className="img"/>
         </Link>
-            <img 
-            src="https://media.revistagq.com/photos/642d239639741a22169073ce/16:9/w_2560%2Cc_limit/spider-man-cruzando-el-multiverso.jpeg"
+        <Link to ="/list">
+          <img 
+            src="https://i.ibb.co/zVjZB4N/Screenshot-2024-05-09-at-12-38-07.png"
             alt="imagen"
             className="img"/>
+        </Link>
       </div>
     </div>
   );

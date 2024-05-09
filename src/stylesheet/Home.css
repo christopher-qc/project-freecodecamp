@@ -1,3 +1,7 @@
+.content-txt {
+    margin: 0 50px;
+}
+
 .txt-testimonials {
     color: white;
     font-size: 30px;
@@ -30,4 +34,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 50px;
 }

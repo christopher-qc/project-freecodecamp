@@ -1,0 +1,8 @@
+.task-list-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    max-height: 380px;
+    overflow-y: auto;
+}

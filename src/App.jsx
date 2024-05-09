@@ -6,6 +6,7 @@ import { Home } from './components/Home';
 import { Error } from './components/Error';
 import { Testimonio } from './components/Testimonio';
 import { Calculator } from './components/Calculator';
+import { List } from './components/List';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path='/testimonials' element={<Testimonio />} />
             <Route path='/counter' element={<CounterClick />} />
             <Route path='/calculator' element={<Calculator />} />
+            <Route path='/list' element={<List />} />
             <Route path='*' element={<Error />} />
           </Routes>
         </BrowserRouter>
